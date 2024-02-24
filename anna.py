@@ -2,22 +2,6 @@
 
 ver = "v1.2"
 #print(f"\033[1;91m\n   .   ,    .             .       .   \n    \ /     |   o         |     o |   \n     Y  . . |-  . . , ;-. | ,-. . |-  \n     |  | | |   |  X  | | | | | | |     \033[0;37m{ver}\033[1;91m\n     '  `-` `-' ' ' ` |-' ' `-' ' `-'  \n                      '               \033[0m")
-    print(''' 
-       ___
-     o|* *|o  ╔╦═╦╗╔╦╗╔╦═╦╗
-     o|* *|o  ║║╔╣╚╝║║║║║║║
-     o|* *|o  ║║╚╣╔╗║╚╝║╩║║
-      \===/   ║╚═╩╝╚╩══╩╩╝║
-       |||    ╚═══════════╝
-       |||   D.O.M.A.I.N-G.R.A.B.B.E.R
-       |||    ╔═╦═╦╦═╦╦═╗╔═╦╦══╦══╦╦╗
-       |||    ║╩║║║║║║║╩║║╚║╠╗╔╩╗╔╩╗║
-    ___|||___ ╚╩╩╩═╩╩═╩╩╝╚═╩╝╚╝ ╚╝ ╚╝
-   
-      By : AnnaQitty
-      Github : github.com/annaqitty
-                                   
-    ''')
 import requests as req
 req.urllib3.disable_warnings()
 from colorama import Fore,Style
@@ -44,6 +28,22 @@ mpreff = "m"
 
 def main():
 	try:
+		print(''' 
+       ___
+     o|* *|o  ╔╦═╦╗╔╦╗╔╦═╦╗
+     o|* *|o  ║║╔╣╚╝║║║║║║║
+     o|* *|o  ║║╚╣╔╗║╚╝║╩║║
+      \===/   ║╚═╩╝╚╩══╩╩╝║
+       |||    ╚═══════════╝
+       |||   D.O.M.A.I.N-G.R.A.B.B.E.R
+       |||    ╔═╦═╦╦═╦╦═╗╔═╦╦══╦══╦╦╗
+       |||    ║╩║║║║║║║╩║║╚║╠╗╔╩╗╔╩╗║
+    ___|||___ ╚╩╩╩═╩╩═╩╩╝╚═╩╝╚╝ ╚╝ ╚╝
+   
+      By : AnnaQitty
+      Github : github.com/annaqitty
+                        
+			''')
 		print(f" {reset}\033[4mCubdomain Scraper{reset}\n https://t.me/yutixverse\n https://github.com/Yutixcode")
 		Cubdo().liat()
 		for i in range(1,19):
